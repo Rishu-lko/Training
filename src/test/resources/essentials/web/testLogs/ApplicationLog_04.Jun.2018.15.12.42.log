@@ -1,0 +1,5 @@
+04-Jun-2018 15:12:42 DEBUG automation -Initialized Logger :src/test/resources/essentials ::web - 04.Jun.2018.15.12.42
+04-Jun-2018 15:12:42 DEBUG automation -Logger Initiated.
+04-Jun-2018 15:14:33 INFO  automation -Start Time :Mon Jun 04 15:14:33 IST 2018
+04-Jun-2018 15:15:13 ERROR automation -Expected condition failed: waiting for visibility of element located by By.id: wrong locator (tried for 20 second(s) with 500 MILLISECONDS interval)
+04-Jun-2018 15:15:13 INFO  automation -End Time :Mon Jun 04 15:15:13 IST 2018

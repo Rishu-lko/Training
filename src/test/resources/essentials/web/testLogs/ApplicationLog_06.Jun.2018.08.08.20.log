@@ -1,0 +1,6 @@
+06-Jun-2018 08:08:20 DEBUG automation -Initialized Logger :src/test/resources/essentials ::web - 06.Jun.2018.08.08.20
+06-Jun-2018 08:08:20 DEBUG automation -Logger Initiated.
+06-Jun-2018 08:08:37 INFO  automation -Start Time :Wed Jun 06 08:08:37 IST 2018
+06-Jun-2018 08:08:37 ERROR automation -[Ljava.lang.StackTraceElement;@4bff7da0
+06-Jun-2018 08:08:37 INFO  automation -End Time :Wed Jun 06 08:08:37 IST 2018
+06-Jun-2018 08:08:38 INFO  automation -End Time :Wed Jun 06 08:08:38 IST 2018

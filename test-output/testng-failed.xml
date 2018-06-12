@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [SeleniumKeywordDrivenPOMFramework1]">
+  <parameter name="parameter" value="5,6,7"/>
+  <parameter name="parameter2" value="7"/>
+  <parameter name="parameter1" value="1"/>
+  <test name="Regression1(failed)">
+    <groups>
+      <run>
+        <include name="parameterised"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.tests.ParametrizedTest">
+        <methods>
+          <include name="parametrizedTestMultiValue"/>
+        </methods>
+      </class> <!-- com.tests.ParametrizedTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [SeleniumKeywordDrivenPOMFramework1] -->

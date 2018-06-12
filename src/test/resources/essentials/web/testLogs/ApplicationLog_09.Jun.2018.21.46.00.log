@@ -1,0 +1,7 @@
+09-Jun-2018 21:46:00 DEBUG automation -Initialized Logger :src/test/resources/essentials ::web - 09.Jun.2018.21.46.00
+09-Jun-2018 21:46:00 DEBUG automation -Logger Initiated.
+09-Jun-2018 21:46:00 INFO  automation -1,7
+09-Jun-2018 21:46:00 INFO  automation -1 , null
+09-Jun-2018 21:46:00 INFO  automation -7 , null
+09-Jun-2018 21:46:00 INFO  automation -8 , null
+09-Jun-2018 21:46:00 INFO  automation -8,0

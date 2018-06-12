@@ -1,0 +1,15 @@
+04-Jun-2018 15:17:12 DEBUG automation -Initialized Logger :src/test/resources/essentials ::web - 04.Jun.2018.15.17.11
+04-Jun-2018 15:17:12 DEBUG automation -Logger Initiated.
+04-Jun-2018 15:17:54 INFO  automation -Start Time Implicit :Mon Jun 04 15:17:54 IST 2018
+04-Jun-2018 15:18:04 ERROR automation -no such element: Unable to locate element: {"method":"id","selector":"wrong locator"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
+System info: host: 'DEL1-LHP-N01072', ip: '172.23.83.128', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\RATNES~1.SIN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b05630f0bcf8ac7cd6ad54f77df32109
+*** Element info: {Using=id, value=wrong locator}
+04-Jun-2018 15:18:04 INFO  automation -End Time :Mon Jun 04 15:18:04 IST 2018

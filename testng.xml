@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="SeleniumKeywordDrivenPOMFramework1" parallel ="none" >
+
+  <parameter name="parameter1"  value="1"/>
+  <parameter name="parameter2" value="7" />
+<parameter name="parameter" value="5,6,7" />
+ 
+  <test name="Regression1" >
+  
+ <!--   <parameter name="parameter"  value="1,7,8"/> -->
+  
+  <groups>
+<define name="parameterised">
+<include name="xml"/>
+<include name="data"/>
+</define>
+<run>
+<include name="parameterised"/>
+</run>
+<dependencies>
+<group name="xml" depends-on="data"/>
+</dependencies>
+</groups>
+<packages>
+  <package name="com.constants"/>
+  <package name="com.tests"/>
+    </packages>
+ 
+
+  
+  
+  <classes>
+  
+    <class name="com.tests.ParametrizedTest"/>
+  </classes>
+  
+  <!--   
+   </test>
+  
+   <test name="Regression2" >
+    <parameter name="parameter"  value="8,9,10"/>
+  <classes>
+  
+  <class name="com.tests.ParametrizedTest">
+   
+  <methods>
+  
+   <parameter name="parameter1" value="8" />
+  <include name="parametrizedTest">
+ 
+  </include>
+  </methods> 
+  </class>
+  </classes> 
+ 
+    <groups>
+            <dependencies>
+                <group name="teste" depends-on="testa" />
+            </dependencies>
+        </groups>
+   
+    <classes>
+      <class name="com.tests.TestNGXMLTest2"  >
+          <methods>
+       <include name="testd"></include>
+       <include name="teste"></include>
+       <include name="testa"></include>
+       </methods>
+       </class>
+       <class name="com.tests.TestNGXMLTest3"   >
+     <methods>
+       <include name="test.*"></include>
+       </methods> 
+        </class>
+      <class name="com.tests.TestNGXMLTest1"   >
+     <methods>
+       <include name="test.*"></include>
+       </methods> 
+        </class>
+    </classes>-->
+   
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
