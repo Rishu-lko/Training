@@ -1,5 +1,0 @@
-06-Jun-2018 08:16:06 DEBUG automation -Initialized Logger :src/test/resources/essentials ::web - 06.Jun.2018.08.16.06
-06-Jun-2018 08:16:06 DEBUG automation -Logger Initiated.
-06-Jun-2018 08:16:20 INFO  automation -Start Time :Wed Jun 06 08:16:20 IST 2018
-06-Jun-2018 08:16:30 ERROR automation -org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.tests.FluentWaitExample$1@638ef7ed (tried for 10 second(s) with 5 MICROSECONDS interval)
-06-Jun-2018 08:16:30 INFO  automation -End Time :Wed Jun 06 08:16:30 IST 2018
