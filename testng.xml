@@ -23,8 +23,7 @@
 </dependencies>
 </groups>
 <packages>
-  <package name="com.constants"/>
-  <package name="com.tests"/>
+  <package name="com.tests.*"/>
     </packages>
  
 
