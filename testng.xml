@@ -8,7 +8,7 @@
  
   <test name="Regression1" >
   
- <!--   <parameter name="parameter"  value="1,7,8"/> -->
+    <parameter name="parameter"  value="1,7,8"/> 
   
   <groups>
 <define name="parameterised">
@@ -23,7 +23,7 @@
 </dependencies>
 </groups>
 <packages>
-  <package name="com.tests.*"/>
+  <package name="com.tests"/>
     </packages>
  
 
