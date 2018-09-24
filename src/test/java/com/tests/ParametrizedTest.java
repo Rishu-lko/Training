@@ -6,6 +6,8 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Optional;
 import org.testng.annotations.DataProvider;
 import org.testng.ITestContext;
+import org.testng.ITestResult;
+
 import java.util.Map;
 
 public class ParametrizedTest extends BaseClass{
@@ -24,6 +26,7 @@ public class ParametrizedTest extends BaseClass{
 	
 	@DataProvider(name="getData")
 	public Integer[][] datafetch(ITestContext context) {
+		
 	//Map<String,String> localParameters = context.getCurrentXmlTest().getLocalParameters();
 	//Map<String,String> allParameters = context.getCurrentXmlTest().getAllParameters();
 	//Map<String,String> allParameters = context.getCurrentXmlTest().get

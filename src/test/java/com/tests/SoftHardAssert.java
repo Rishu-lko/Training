@@ -6,7 +6,8 @@ import org.testng.asserts.SoftAssert;
 
 public class SoftHardAssert extends BaseClass{
 	
-	@Test
+
+	@Test (groups= {"first","second"})
 	@SuppressWarnings("unused")
 	public void verifyHardReset(){
 		try {
@@ -22,7 +23,7 @@ public class SoftHardAssert extends BaseClass{
 		
 	}
 	
-	@Test
+	@Test (groups="second")
 	public void verifySoftReset(){
 		try {
 		SoftAssert softAssert = new SoftAssert();

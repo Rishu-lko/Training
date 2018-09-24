@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="SeleniumKeywordDrivenPOMFramework1" parallel ="none" >
+<suite thread-count="5" name="SeleniumKeywordDrivenPOMFramework1" parallel ="classes" >
+<listeners>
+ <listener class-name="com.tests.IAnnotationTransformerClass"></listener>
+</listeners>
 
+<test name="Regression">
+
+<classes>
+<class name="com.tests.StringFunctions"/>
+</classes>
+</test>
+ 
+ <!--  
+ <test name="Regressigon">
+ <groups>
+ <define name="all">
+ <include name="first"/>
+ <include name="second"/>
+ </define>
+ <run>
+ <include name="all"/>
+  <exclude name="second"/>  
+ </run>
+ </groups>
+ <classes>
+ <class name="com.tests.SoftHardAssert"/>
+ </classes> 
+ </test>
+-->
+
+<!--  
   <parameter name="parameter1"  value="1"/>
   <parameter name="parameter2" value="7" />
 <parameter name="parameter" value="5,6,7" />
@@ -32,7 +61,7 @@
   <classes>
   
     <class name="com.tests.ParametrizedTest"/>
-  </classes>
+  </classes> -->
   
   <!--   
    </test>
@@ -80,5 +109,5 @@
     </classes>-->
    
    
-  </test> <!-- Test -->
+<!--  </test>  Test -->
 </suite> <!-- Suite -->

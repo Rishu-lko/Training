@@ -2,3 +2,11 @@ test-output/*
 *.log
 *.class
 .metadata
+/target/
+
+.classpath
+.project
+.settings/*
+bin/*
+src/test/resources/essentials/web/reports/*
+src/test/resources/essentials/web/screenShots/*
