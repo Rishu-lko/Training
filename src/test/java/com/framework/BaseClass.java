@@ -84,7 +84,7 @@ public abstract class BaseClass {
 
   private void initializeIEDriver() {
 	  
-	  System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\IEdriverserver.exe");
+	  System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\IEdriverserver.exe");
 	  this.webDriver = new InternetExplorerDriver();
 	  
 }

@@ -2,3 +2,9 @@ test-output/*
 *.log
 *.class
 .metadata
+/target/
+
+.classpath
+.project
+.settings/*
+bin/*

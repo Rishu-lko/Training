@@ -17,7 +17,7 @@ import com.framework.BaseClass;
 
 public class MixImplicitExplicitWait extends BaseClass {
 	
-	@Test(priority=1,description="When Element is found immediately.",enabled=true)
+	@Test(priority=1,description="When Element is found immediately.",enabled=false)
 	public void mixImplicitExplicitWaitImmediateFound() {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
