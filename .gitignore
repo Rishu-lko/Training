@@ -3,7 +3,6 @@ test-output/*
 *.class
 .metadata
 /target/
-
 .classpath
 .project
 .settings/*
