@@ -9,3 +9,4 @@ test-output/*
 bin/*
 src/test/resources/essentials/web/reports/*
 src/test/resources/essentials/web/screenShots/*
+src/test/resources/essentials/web/DownloadedFiles/*
